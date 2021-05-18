@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D520F89626547CF300DAB802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89526547CF300DAB802 /* AppDelegate.swift */; };
+		D520F89826547CF300DAB802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89726547CF300DAB802 /* SceneDelegate.swift */; };
+		D520F89A26547CF300DAB802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89926547CF300DAB802 /* ViewController.swift */; };
+		D520F89D26547CF300DAB802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D520F89B26547CF300DAB802 /* Main.storyboard */; };
+		D520F89F26547CF600DAB802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D520F89E26547CF600DAB802 /* Assets.xcassets */; };
+		D520F8A226547CF600DAB802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D520F8A026547CF600DAB802 /* LaunchScreen.storyboard */; };
+		D520F8AD26547CF600DAB802 /* LandOfAThousandHillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F8AC26547CF600DAB802 /* LandOfAThousandHillsTests.swift */; };
+		D520F8B826547CF600DAB802 /* LandOfAThousandHillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F8B726547CF600DAB802 /* LandOfAThousandHillsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D520F8A926547CF600DAB802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D520F88A26547CF300DAB802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D520F89126547CF300DAB802;
+			remoteInfo = LandOfAThousandHills;
+		};
+		D520F8B426547CF600DAB802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D520F88A26547CF300DAB802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D520F89126547CF300DAB802;
+			remoteInfo = LandOfAThousandHills;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D520F89226547CF300DAB802 /* LandOfAThousandHills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandOfAThousandHills.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D520F89526547CF300DAB802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D520F89726547CF300DAB802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D520F89926547CF300DAB802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D520F89C26547CF300DAB802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D520F89E26547CF600DAB802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D520F8A126547CF600DAB802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D520F8A326547CF600DAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D520F8A826547CF600DAB802 /* LandOfAThousandHillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandOfAThousandHillsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D520F8AC26547CF600DAB802 /* LandOfAThousandHillsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandOfAThousandHillsTests.swift; sourceTree = "<group>"; };
+		D520F8AE26547CF600DAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D520F8B326547CF600DAB802 /* LandOfAThousandHillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandOfAThousandHillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D520F8B726547CF600DAB802 /* LandOfAThousandHillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandOfAThousandHillsUITests.swift; sourceTree = "<group>"; };
+		D520F8B926547CF600DAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D520F88F26547CF300DAB802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F8A526547CF600DAB802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F8B026547CF600DAB802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D520F88926547CF300DAB802 = {
+			isa = PBXGroup;
+			children = (
+				D520F89426547CF300DAB802 /* LandOfAThousandHills */,
+				D520F8AB26547CF600DAB802 /* LandOfAThousandHillsTests */,
+				D520F8B626547CF600DAB802 /* LandOfAThousandHillsUITests */,
+				D520F89326547CF300DAB802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D520F89326547CF300DAB802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D520F89226547CF300DAB802 /* LandOfAThousandHills.app */,
+				D520F8A826547CF600DAB802 /* LandOfAThousandHillsTests.xctest */,
+				D520F8B326547CF600DAB802 /* LandOfAThousandHillsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D520F89426547CF300DAB802 /* LandOfAThousandHills */ = {
+			isa = PBXGroup;
+			children = (
+				D520F89526547CF300DAB802 /* AppDelegate.swift */,
+				D520F89726547CF300DAB802 /* SceneDelegate.swift */,
+				D520F89926547CF300DAB802 /* ViewController.swift */,
+				D520F89B26547CF300DAB802 /* Main.storyboard */,
+				D520F89E26547CF600DAB802 /* Assets.xcassets */,
+				D520F8A026547CF600DAB802 /* LaunchScreen.storyboard */,
+				D520F8A326547CF600DAB802 /* Info.plist */,
+			);
+			path = LandOfAThousandHills;
+			sourceTree = "<group>";
+		};
+		D520F8AB26547CF600DAB802 /* LandOfAThousandHillsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D520F8AC26547CF600DAB802 /* LandOfAThousandHillsTests.swift */,
+				D520F8AE26547CF600DAB802 /* Info.plist */,
+			);
+			path = LandOfAThousandHillsTests;
+			sourceTree = "<group>";
+		};
+		D520F8B626547CF600DAB802 /* LandOfAThousandHillsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D520F8B726547CF600DAB802 /* LandOfAThousandHillsUITests.swift */,
+				D520F8B926547CF600DAB802 /* Info.plist */,
+			);
+			path = LandOfAThousandHillsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D520F89126547CF300DAB802 /* LandOfAThousandHills */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D520F8BC26547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHills" */;
+			buildPhases = (
+				D520F88E26547CF300DAB802 /* Sources */,
+				D520F88F26547CF300DAB802 /* Frameworks */,
+				D520F89026547CF300DAB802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LandOfAThousandHills;
+			productName = LandOfAThousandHills;
+			productReference = D520F89226547CF300DAB802 /* LandOfAThousandHills.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D520F8A726547CF600DAB802 /* LandOfAThousandHillsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D520F8BF26547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHillsTests" */;
+			buildPhases = (
+				D520F8A426547CF600DAB802 /* Sources */,
+				D520F8A526547CF600DAB802 /* Frameworks */,
+				D520F8A626547CF600DAB802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D520F8AA26547CF600DAB802 /* PBXTargetDependency */,
+			);
+			name = LandOfAThousandHillsTests;
+			productName = LandOfAThousandHillsTests;
+			productReference = D520F8A826547CF600DAB802 /* LandOfAThousandHillsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D520F8B226547CF600DAB802 /* LandOfAThousandHillsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D520F8C226547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHillsUITests" */;
+			buildPhases = (
+				D520F8AF26547CF600DAB802 /* Sources */,
+				D520F8B026547CF600DAB802 /* Frameworks */,
+				D520F8B126547CF600DAB802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D520F8B526547CF600DAB802 /* PBXTargetDependency */,
+			);
+			name = LandOfAThousandHillsUITests;
+			productName = LandOfAThousandHillsUITests;
+			productReference = D520F8B326547CF600DAB802 /* LandOfAThousandHillsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D520F88A26547CF300DAB802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D520F89126547CF300DAB802 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D520F8A726547CF600DAB802 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D520F89126547CF300DAB802;
+					};
+					D520F8B226547CF600DAB802 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D520F89126547CF300DAB802;
+					};
+				};
+			};
+			buildConfigurationList = D520F88D26547CF300DAB802 /* Build configuration list for PBXProject "LandOfAThousandHills" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D520F88926547CF300DAB802;
+			productRefGroup = D520F89326547CF300DAB802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D520F89126547CF300DAB802 /* LandOfAThousandHills */,
+				D520F8A726547CF600DAB802 /* LandOfAThousandHillsTests */,
+				D520F8B226547CF600DAB802 /* LandOfAThousandHillsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D520F89026547CF300DAB802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D520F8A226547CF600DAB802 /* LaunchScreen.storyboard in Resources */,
+				D520F89F26547CF600DAB802 /* Assets.xcassets in Resources */,
+				D520F89D26547CF300DAB802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F8A626547CF600DAB802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F8B126547CF600DAB802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D520F88E26547CF300DAB802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D520F89A26547CF300DAB802 /* ViewController.swift in Sources */,
+				D520F89626547CF300DAB802 /* AppDelegate.swift in Sources */,
+				D520F89826547CF300DAB802 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F8A426547CF600DAB802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D520F8AD26547CF600DAB802 /* LandOfAThousandHillsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F8AF26547CF600DAB802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D520F8B826547CF600DAB802 /* LandOfAThousandHillsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D520F8AA26547CF600DAB802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D520F89126547CF300DAB802 /* LandOfAThousandHills */;
+			targetProxy = D520F8A926547CF600DAB802 /* PBXContainerItemProxy */;
+		};
+		D520F8B526547CF600DAB802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D520F89126547CF300DAB802 /* LandOfAThousandHills */;
+			targetProxy = D520F8B426547CF600DAB802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D520F89B26547CF300DAB802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D520F89C26547CF300DAB802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D520F8A026547CF600DAB802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D520F8A126547CF600DAB802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D520F8BA26547CF600DAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D520F8BB26547CF600DAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D520F8BD26547CF600DAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48M3H3QSX7;
+				INFOPLIST_FILE = LandOfAThousandHills/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArihantJain.LandOfAThousandHills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D520F8BE26547CF600DAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48M3H3QSX7;
+				INFOPLIST_FILE = LandOfAThousandHills/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArihantJain.LandOfAThousandHills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D520F8C026547CF600DAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48M3H3QSX7;
+				INFOPLIST_FILE = LandOfAThousandHillsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArihantJain.LandOfAThousandHillsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandOfAThousandHills.app/LandOfAThousandHills";
+			};
+			name = Debug;
+		};
+		D520F8C126547CF600DAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48M3H3QSX7;
+				INFOPLIST_FILE = LandOfAThousandHillsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArihantJain.LandOfAThousandHillsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandOfAThousandHills.app/LandOfAThousandHills";
+			};
+			name = Release;
+		};
+		D520F8C326547CF600DAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48M3H3QSX7;
+				INFOPLIST_FILE = LandOfAThousandHillsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArihantJain.LandOfAThousandHillsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LandOfAThousandHills;
+			};
+			name = Debug;
+		};
+		D520F8C426547CF600DAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48M3H3QSX7;
+				INFOPLIST_FILE = LandOfAThousandHillsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArihantJain.LandOfAThousandHillsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LandOfAThousandHills;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D520F88D26547CF300DAB802 /* Build configuration list for PBXProject "LandOfAThousandHills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D520F8BA26547CF600DAB802 /* Debug */,
+				D520F8BB26547CF600DAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D520F8BC26547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D520F8BD26547CF600DAB802 /* Debug */,
+				D520F8BE26547CF600DAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D520F8BF26547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHillsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D520F8C026547CF600DAB802 /* Debug */,
+				D520F8C126547CF600DAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D520F8C226547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHillsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D520F8C326547CF600DAB802 /* Debug */,
+				D520F8C426547CF600DAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D520F88A26547CF300DAB802 /* Project object */;
+}
