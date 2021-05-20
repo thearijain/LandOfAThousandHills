@@ -152,13 +152,13 @@
 			isa = PBXGroup;
 			children = (
 				D520F8C9265610B800DAB802 /* LoginScreen */,
-				D520F8C526547F9300DAB802 /* LandOfAThousandHills.entitlements */,
 				D520F89526547CF300DAB802 /* AppDelegate.swift */,
 				D520F89726547CF300DAB802 /* SceneDelegate.swift */,
 				D520F89E26547CF600DAB802 /* Assets.xcassets */,
 				D520F8A026547CF600DAB802 /* LaunchScreen.storyboard */,
 				D520F8A326547CF600DAB802 /* Info.plist */,
 				D520F8C626560D5100DAB802 /* GoogleService-Info.plist */,
+				D520F8C526547F9300DAB802 /* LandOfAThousandHills.entitlements */,
 			);
 			path = LandOfAThousandHills;
 			sourceTree = "<group>";

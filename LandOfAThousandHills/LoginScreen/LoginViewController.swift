@@ -10,6 +10,8 @@ import AuthenticationServices
 import FirebaseAuth
 import FirebaseDatabase
 
+fileprivate var currentNonce: String? // helps w network security
+
 //MARK: some of this stuff might go into a view class instead
 class LoginViewController: UIViewController {
     
@@ -31,7 +33,6 @@ extension LoginViewController: ASAuthorizationControllerPresentationContextProvi
 
 }
 
-fileprivate var currentNonce: String? // helps w network security
 
 extension LoginViewController {
     func setupAppleSignInButton() {
@@ -83,15 +84,14 @@ extension LoginViewController: ASAuthorizationControllerDelegate {
     func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         if let appleIDCredential = authorization.credential as? ASAuthorizationAppleIDCredential {
             guard let nonce = currentNonce else {
-                fatalError("callback recieved but no login request was there")
-
+                fatalError("Callback recieved but no login request was there.")
             }
             guard let appleIDToken = appleIDCredential.identityToken else {
-                print("unable to fetch identity token")
+                print("Unable to fetch identity token.")
                 return
             }
             guard let idTokenString = String(data: appleIDToken, encoding: .utf8) else {
-                print("unable to serialize token string from data")
+                print("Unable to serialize token string from data.")
                 return
             }
             
@@ -99,11 +99,29 @@ extension LoginViewController: ASAuthorizationControllerDelegate {
             
             Auth.auth().signIn(with: credential) { (authDataResult, error) in
                 if let error = error {
-                    print("shit it didn't work")
+                    print("Error with signing in.")
                     self.outputErrorToUser(error.localizedDescription)
                 }
                 if let user = authDataResult?.user {
-                    print("nice, account created and signed in")
+                     
+                    self.database.child(user.uid).observeSingleEvent(of: .value, with: { snapshot in
+                        guard (snapshot.value as? [String: Any]) != nil else {
+                            // user doesn't exist
+                            print("\n data does not exist, creating user \n ")
+                            let object: [String: Any] = [
+                                "name": "Ari Jain" as NSObject,
+                                "email": user.email ?? "unknown",
+                                "balance": 0
+                            ]
+                            self.database.child(user.uid).setValue(object)
+                            return
+                        }
+                        // user exists
+                        print("\n user exists \n")
+                        return
+
+                    })
+
                     print("email ", user.email ?? "unknown")
                     print("id ", user.uid)
                     
