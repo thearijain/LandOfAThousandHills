@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_LandOfAThousandHills_LandOfAThousandHillsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_LandOfAThousandHills_LandOfAThousandHillsUITests
+@end

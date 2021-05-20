@@ -1,0 +1,6 @@
+framework module Pods_LandOfAThousandHills {
+  umbrella header "Pods-LandOfAThousandHills-umbrella.h"
+
+  export *
+  module * { export * }
+}

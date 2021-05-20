@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BADC9CC60EA94FC85EFA523 /* Pods_LandOfAThousandHills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32160B95BEB383C6B5C7CDE /* Pods_LandOfAThousandHills.framework */; };
+		28953D7FEB62818B730A9FB7 /* Pods_LandOfAThousandHillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940430F902DFA801BAFBA7EA /* Pods_LandOfAThousandHillsTests.framework */; };
 		D520F89626547CF300DAB802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89526547CF300DAB802 /* AppDelegate.swift */; };
 		D520F89826547CF300DAB802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89726547CF300DAB802 /* SceneDelegate.swift */; };
-		D520F89A26547CF300DAB802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89926547CF300DAB802 /* ViewController.swift */; };
+		D520F89A26547CF300DAB802 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89926547CF300DAB802 /* LoginViewController.swift */; };
 		D520F89F26547CF600DAB802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D520F89E26547CF600DAB802 /* Assets.xcassets */; };
 		D520F8A226547CF600DAB802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D520F8A026547CF600DAB802 /* LaunchScreen.storyboard */; };
 		D520F8AD26547CF600DAB802 /* LandOfAThousandHillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F8AC26547CF600DAB802 /* LandOfAThousandHillsTests.swift */; };
 		D520F8B826547CF600DAB802 /* LandOfAThousandHillsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F8B726547CF600DAB802 /* LandOfAThousandHillsUITests.swift */; };
+		D520F8C726560D5100DAB802 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D520F8C626560D5100DAB802 /* GoogleService-Info.plist */; };
+		FF6D03373246F9211CAA76D0 /* Pods_LandOfAThousandHills_LandOfAThousandHillsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A97477D6E0300D9CCFF75 /* Pods_LandOfAThousandHills_LandOfAThousandHillsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035B12BFF414D7BDD634DC4C /* Pods-LandOfAThousandHillsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHillsTests.debug.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHillsTests/Pods-LandOfAThousandHillsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		395C3C479DD9EF21CD51AAE1 /* Pods-LandOfAThousandHillsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHillsTests.release.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHillsTests/Pods-LandOfAThousandHillsTests.release.xcconfig"; sourceTree = "<group>"; };
+		47369BF308EEF21CBE72A770 /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.release.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		782A97477D6E0300D9CCFF75 /* Pods_LandOfAThousandHills_LandOfAThousandHillsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandOfAThousandHills_LandOfAThousandHillsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940430F902DFA801BAFBA7EA /* Pods_LandOfAThousandHillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandOfAThousandHillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32160B95BEB383C6B5C7CDE /* Pods_LandOfAThousandHills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandOfAThousandHills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD631D0436CF79B92CFD17CA /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D520F89226547CF300DAB802 /* LandOfAThousandHills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandOfAThousandHills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D520F89526547CF300DAB802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D520F89726547CF300DAB802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D520F89926547CF300DAB802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D520F89926547CF300DAB802 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D520F89E26547CF600DAB802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D520F8A126547CF600DAB802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D520F8A326547CF600DAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,10 @@
 		D520F8B326547CF600DAB802 /* LandOfAThousandHillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandOfAThousandHillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D520F8B726547CF600DAB802 /* LandOfAThousandHillsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandOfAThousandHillsUITests.swift; sourceTree = "<group>"; };
 		D520F8B926547CF600DAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D520F8C526547F9300DAB802 /* LandOfAThousandHills.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LandOfAThousandHills.entitlements; sourceTree = "<group>"; };
+		D520F8C626560D5100DAB802 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4BE1C591B5EFAD9C20E1411 /* Pods-LandOfAThousandHills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHills.release.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHills/Pods-LandOfAThousandHills.release.xcconfig"; sourceTree = "<group>"; };
+		EB39D5606AA6357F26CE7BD7 /* Pods-LandOfAThousandHills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHills.debug.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHills/Pods-LandOfAThousandHills.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BADC9CC60EA94FC85EFA523 /* Pods_LandOfAThousandHills.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28953D7FEB62818B730A9FB7 /* Pods_LandOfAThousandHillsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6D03373246F9211CAA76D0 /* Pods_LandOfAThousandHills_LandOfAThousandHillsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8FD1ACE4C2C2255672A5B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A32160B95BEB383C6B5C7CDE /* Pods_LandOfAThousandHills.framework */,
+				782A97477D6E0300D9CCFF75 /* Pods_LandOfAThousandHills_LandOfAThousandHillsUITests.framework */,
+				940430F902DFA801BAFBA7EA /* Pods_LandOfAThousandHillsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F7018234D95A124118DC36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB39D5606AA6357F26CE7BD7 /* Pods-LandOfAThousandHills.debug.xcconfig */,
+				E4BE1C591B5EFAD9C20E1411 /* Pods-LandOfAThousandHills.release.xcconfig */,
+				AD631D0436CF79B92CFD17CA /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig */,
+				47369BF308EEF21CBE72A770 /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.release.xcconfig */,
+				035B12BFF414D7BDD634DC4C /* Pods-LandOfAThousandHillsTests.debug.xcconfig */,
+				395C3C479DD9EF21CD51AAE1 /* Pods-LandOfAThousandHillsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D520F88926547CF300DAB802 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				D520F8AB26547CF600DAB802 /* LandOfAThousandHillsTests */,
 				D520F8B626547CF600DAB802 /* LandOfAThousandHillsUITests */,
 				D520F89326547CF300DAB802 /* Products */,
+				C4F7018234D95A124118DC36 /* Pods */,
+				A8FD1ACE4C2C2255672A5B31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,14 @@
 		D520F89426547CF300DAB802 /* LandOfAThousandHills */ = {
 			isa = PBXGroup;
 			children = (
+				D520F8C9265610B800DAB802 /* LoginScreen */,
+				D520F8C526547F9300DAB802 /* LandOfAThousandHills.entitlements */,
 				D520F89526547CF300DAB802 /* AppDelegate.swift */,
 				D520F89726547CF300DAB802 /* SceneDelegate.swift */,
-				D520F89926547CF300DAB802 /* ViewController.swift */,
 				D520F89E26547CF600DAB802 /* Assets.xcassets */,
 				D520F8A026547CF600DAB802 /* LaunchScreen.storyboard */,
 				D520F8A326547CF600DAB802 /* Info.plist */,
+				D520F8C626560D5100DAB802 /* GoogleService-Info.plist */,
 			);
 			path = LandOfAThousandHills;
 			sourceTree = "<group>";
@@ -125,6 +170,14 @@
 			path = LandOfAThousandHillsUITests;
 			sourceTree = "<group>";
 		};
+		D520F8C9265610B800DAB802 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D520F89926547CF300DAB802 /* LoginViewController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D520F8BC26547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHills" */;
 			buildPhases = (
+				D37C8A0FC194835CCAE72481 /* [CP] Check Pods Manifest.lock */,
 				D520F88E26547CF300DAB802 /* Sources */,
 				D520F88F26547CF300DAB802 /* Frameworks */,
 				D520F89026547CF300DAB802 /* Resources */,
+				33468403970EEE25BBF7EE95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D520F8BF26547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHillsTests" */;
 			buildPhases = (
+				C00286D33F0F6B8D35C68E38 /* [CP] Check Pods Manifest.lock */,
 				D520F8A426547CF600DAB802 /* Sources */,
 				D520F8A526547CF600DAB802 /* Frameworks */,
 				D520F8A626547CF600DAB802 /* Resources */,
@@ -167,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D520F8C226547CF600DAB802 /* Build configuration list for PBXNativeTarget "LandOfAThousandHillsUITests" */;
 			buildPhases = (
+				4E7A772BF75F76D590A76D9C /* [CP] Check Pods Manifest.lock */,
 				D520F8AF26547CF600DAB802 /* Sources */,
 				D520F8B026547CF600DAB802 /* Frameworks */,
 				D520F8B126547CF600DAB802 /* Resources */,
+				E883CD0ED3473243869A172F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D520F8A226547CF600DAB802 /* LaunchScreen.storyboard in Resources */,
+				D520F8C726560D5100DAB802 /* GoogleService-Info.plist in Resources */,
 				D520F89F26547CF600DAB802 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,12 +308,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33468403970EEE25BBF7EE95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandOfAThousandHills/Pods-LandOfAThousandHills-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandOfAThousandHills/Pods-LandOfAThousandHills-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandOfAThousandHills/Pods-LandOfAThousandHills-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7A772BF75F76D590A76D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00286D33F0F6B8D35C68E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandOfAThousandHillsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37C8A0FC194835CCAE72481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandOfAThousandHills-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E883CD0ED3473243869A172F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D520F88E26547CF300DAB802 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D520F89A26547CF300DAB802 /* ViewController.swift in Sources */,
+				D520F89A26547CF300DAB802 /* LoginViewController.swift in Sources */,
 				D520F89626547CF300DAB802 /* AppDelegate.swift in Sources */,
 				D520F89826547CF300DAB802 /* SceneDelegate.swift in Sources */,
 			);
@@ -421,9 +583,11 @@
 		};
 		D520F8BD26547CF600DAB802 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB39D5606AA6357F26CE7BD7 /* Pods-LandOfAThousandHills.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LandOfAThousandHills/LandOfAThousandHills.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48M3H3QSX7;
 				INFOPLIST_FILE = LandOfAThousandHills/Info.plist;
@@ -440,9 +604,11 @@
 		};
 		D520F8BE26547CF600DAB802 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BE1C591B5EFAD9C20E1411 /* Pods-LandOfAThousandHills.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LandOfAThousandHills/LandOfAThousandHills.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48M3H3QSX7;
 				INFOPLIST_FILE = LandOfAThousandHills/Info.plist;
@@ -459,6 +625,7 @@
 		};
 		D520F8C026547CF600DAB802 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035B12BFF414D7BDD634DC4C /* Pods-LandOfAThousandHillsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +648,7 @@
 		};
 		D520F8C126547CF600DAB802 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395C3C479DD9EF21CD51AAE1 /* Pods-LandOfAThousandHillsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +671,7 @@
 		};
 		D520F8C326547CF600DAB802 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD631D0436CF79B92CFD17CA /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +692,7 @@
 		};
 		D520F8C426547CF600DAB802 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47369BF308EEF21CBE72A770 /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
