@@ -8,6 +8,8 @@ target 'LandOfAThousandHills' do
   # Pods for LandOfAThousandHills
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
 
   target 'LandOfAThousandHillsTests' do

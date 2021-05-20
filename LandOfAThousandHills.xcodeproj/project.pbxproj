@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1BADC9CC60EA94FC85EFA523 /* Pods_LandOfAThousandHills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32160B95BEB383C6B5C7CDE /* Pods_LandOfAThousandHills.framework */; };
 		28953D7FEB62818B730A9FB7 /* Pods_LandOfAThousandHillsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940430F902DFA801BAFBA7EA /* Pods_LandOfAThousandHillsTests.framework */; };
+		D5075B2C2656CB1E00595E7C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5075B2B2656CB1E00595E7C /* Utilities.swift */; };
 		D520F89626547CF300DAB802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89526547CF300DAB802 /* AppDelegate.swift */; };
 		D520F89826547CF300DAB802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89726547CF300DAB802 /* SceneDelegate.swift */; };
 		D520F89A26547CF300DAB802 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520F89926547CF300DAB802 /* LoginViewController.swift */; };
@@ -45,6 +46,7 @@
 		940430F902DFA801BAFBA7EA /* Pods_LandOfAThousandHillsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandOfAThousandHillsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32160B95BEB383C6B5C7CDE /* Pods_LandOfAThousandHills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandOfAThousandHills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD631D0436CF79B92CFD17CA /* Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig"; path = "Target Support Files/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests/Pods-LandOfAThousandHills-LandOfAThousandHillsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5075B2B2656CB1E00595E7C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D520F89226547CF300DAB802 /* LandOfAThousandHills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandOfAThousandHills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D520F89526547CF300DAB802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D520F89726547CF300DAB802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,9 +117,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D5075B2A2656CAE100595E7C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D5075B2B2656CB1E00595E7C /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		D520F88926547CF300DAB802 = {
 			isa = PBXGroup;
 			children = (
+				D5075B2A2656CAE100595E7C /* Utilities */,
 				D520F89426547CF300DAB802 /* LandOfAThousandHills */,
 				D520F8AB26547CF600DAB802 /* LandOfAThousandHillsTests */,
 				D520F8B626547CF600DAB802 /* LandOfAThousandHillsUITests */,
@@ -418,6 +429,7 @@
 			files = (
 				D520F89A26547CF300DAB802 /* LoginViewController.swift in Sources */,
 				D520F89626547CF300DAB802 /* AppDelegate.swift in Sources */,
+				D5075B2C2656CB1E00595E7C /* Utilities.swift in Sources */,
 				D520F89826547CF300DAB802 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

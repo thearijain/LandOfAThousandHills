@@ -19,16 +19,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>land-of-a-thousand-hills.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:480962506011:ios:4e8ec38ac4beba723277be</string>
+	<key>DATABASE_URL</key>
+	<string>https://land-of-a-thousand-hills-default-rtdb.firebaseio.com/</string>
 </dict>
 </plist>
