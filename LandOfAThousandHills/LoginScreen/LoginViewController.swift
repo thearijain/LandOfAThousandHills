@@ -45,7 +45,8 @@ extension LoginViewController {
             button.heightAnchor.constraint(equalToConstant: 60),
             button.widthAnchor.constraint(equalToConstant: 280),
             button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-            button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+//            button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+            button.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -200)
         ])
     }
 
