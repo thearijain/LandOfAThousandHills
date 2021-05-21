@@ -13,43 +13,28 @@ import FirebaseDatabase
 fileprivate var currentNonce: String? // helps w network security
 
 //MARK: some of this stuff might go into a view class instead
-class LoginViewController: UIViewController {
-    
+class LoginViewController: UIViewController, ASAuthorizationControllerPresentationContextProviding {
+
     let database = Database.database().reference()
+    let loginView = LoginView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        view.backgroundColor = .red
-        
-        setupAppleSignInButton()
-    }
-}
+        self.view = loginView
 
-extension LoginViewController: ASAuthorizationControllerPresentationContextProviding {
+        setupButton()
+    }
+    
+    func setupButton() {
+        loginView.appleButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
+    }
+    
     func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
-        return self.view.window!
+        self.view.window!
     }
-
 }
-
 
 extension LoginViewController {
-    func setupAppleSignInButton() {
-        let button = ASAuthorizationAppleIDButton(authorizationButtonType: .continue, authorizationButtonStyle: .white)
-        button.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
-        button.center = view.center
-        view.addSubview(button)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            button.heightAnchor.constraint(equalToConstant: 60),
-            button.widthAnchor.constraint(equalToConstant: 280),
-            button.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-//            button.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
-            button.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -200)
-        ])
-    }
-
     
     @objc func signInButtonTapped() {
         performSignIn()
