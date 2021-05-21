@@ -110,7 +110,7 @@ extension LoginViewController: ASAuthorizationControllerDelegate {
                             // user doesn't exist
                             print("\n data does not exist, creating user \n ")
                             let object: [String: Any] = [
-                                "name": "Ari Jain" as NSObject,
+                                "name": user.displayName ?? "unknown",
                                 "email": user.email ?? "unknown",
                                 "balance": 0
                             ]
