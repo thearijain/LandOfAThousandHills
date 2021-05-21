@@ -36,10 +36,6 @@ class LoginView: UIView {
         setupAppleSignInButton()
     }
     
-    func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
-        return self.window!
-    }
-
     func setupAppleSignInButton() {
         appleButton.center = center
         appleButton.translatesAutoresizingMaskIntoConstraints = false

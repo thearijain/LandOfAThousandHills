@@ -28,6 +28,9 @@ class LoginViewController: UIViewController, ASAuthorizationControllerPresentati
     func setupButton() {
         loginView.appleButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
     }
+}
+
+extension LoginViewController {
     
     func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
         self.view.window!
