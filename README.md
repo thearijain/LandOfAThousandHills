@@ -46,5 +46,5 @@ Finally, the last major technical challenge we have to support is in-app payment
               
 ## Finale
 
-The opportunity to work on an application that is going to support thousands of users and millions of dollars in transactions is something I am unbelievably excited about. The app is currently still in development and I have created a new private repo to hold the code, as this repo doesn't contain any important code lol.
+The opportunity to work on an application that is going to support thousands of users and millions of dollars in transactions is something I am unbelievably excited about. The app is currently still in development and I have created a new private repo to hold the code.
 
