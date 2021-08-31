@@ -1,6 +1,0 @@
-framework module Pods_LandOfAThousandHills_LandOfAThousandHillsUITests {
-  umbrella header "Pods-LandOfAThousandHills-LandOfAThousandHillsUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
